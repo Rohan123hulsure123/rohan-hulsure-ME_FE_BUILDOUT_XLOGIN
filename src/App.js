@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [error, setError] = useState("");
-  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
